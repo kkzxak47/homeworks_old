@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchWebServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.SearchWebServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReadConfigFileServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.ReadConfigFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowIndexServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.ShowIndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DocAnalyzeServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.DocAnalyzeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IndexInfoServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.IndexInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddIndexServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.AddIndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdvancedSearchServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.AdvancedSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MultiFieldSearchServlet</servlet-name>
+    <servlet-class>com.zhongxun.servlet.MultiFieldSearchServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/SearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchWebServlet</servlet-name>
+    <url-pattern>/SearchWebServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadConfigFileServlet</servlet-name>
+    <url-pattern>/servlet/ReadConfigFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowIndexServlet</servlet-name>
+    <url-pattern>/ShowIndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DocAnalyzeServlet</servlet-name>
+    <url-pattern>/DocAnalyzeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexInfoServlet</servlet-name>
+    <url-pattern>/IndexInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddIndexServlet</servlet-name>
+    <url-pattern>/AddIndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdvancedSearchServlet</servlet-name>
+    <url-pattern>/AdvancedSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MultiFieldSearchServlet</servlet-name>
+    <url-pattern>/MultiFieldSearchServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
